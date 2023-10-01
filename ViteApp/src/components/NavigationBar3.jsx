@@ -3,14 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function NavigationBar2() {
+function NavigationBar3() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="me-auto">
-            <NavDropdown title="PPMP">
+            <NavDropdown title="Pre-Procurements">
               <NavDropdown.Item href="#">Action</NavDropdown.Item>
               <NavDropdown.Item href="#">Something</NavDropdown.Item>
             </NavDropdown>
@@ -28,4 +28,4 @@ function NavigationBar2() {
   );
 }
 
-export default NavigationBar2;
+export default NavigationBar3;
